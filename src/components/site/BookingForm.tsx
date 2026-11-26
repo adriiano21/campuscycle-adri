@@ -85,7 +85,7 @@ function RepairChoice({ repairs }: { repairs: BookingFormProps['repairs'] }) {
   return (
     <fieldset className="grid gap-3">
       <legend className="mb-1 font-semibold">
-        Choose the repairs you need <span className="font-normal text-ink-soft">(optional)</span>
+        Repairs <span className="font-normal text-ink-soft">(optional)</span>
       </legend>
       <p className="text-ink-soft">
         Tick each repair you want to request for your bicycle. You can choose more than one.
