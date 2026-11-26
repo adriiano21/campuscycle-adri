@@ -85,8 +85,12 @@ function RepairChoice({ repairs }: { repairs: BookingFormProps['repairs'] }) {
   return (
     <fieldset className="grid gap-3">
       <legend className="mb-1 font-semibold">
-        Repairs <span className="font-normal text-ink-soft">(optional)</span>
+        Choose the repairs you need <span className="font-normal text-ink-soft">(optional)</span>
       </legend>
+      <p className="text-ink-soft">
+        Tick each repair you want to request for your bicycle. You can choose more than one.
+        Leave repairs you do not need unticked.
+      </p>
       {repairs.map((repair) => {
         // To show each repair's price too, replace the line under this comment with this line:
         //   const label = repair.name + ', ' + formatPrice(repair.price)
